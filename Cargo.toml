@@ -1,0 +1,20 @@
+[package]
+name = "journal_entry"
+version = "0.1.0"
+edition = "2021"
+authors = ["Sean Duxbury <duxbuse@gmail.com>"]
+license = "MIT"
+description = "A tool to generate journal markdown files"
+readme = "README.md"
+homepage = "https://github.com/duxbuse/journal_entry"
+repository = "https://github.com/duxbuse/journal_entry"
+keywords = ["cli", "journal"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+markdown-gen = "1.2.1"
+chrono = "0.4.23"
+fstrings = "0.2.3"
+num-traits = "0.2.15"
