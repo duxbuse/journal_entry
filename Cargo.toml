@@ -1,6 +1,6 @@
 [package]
 name = "journal_entry"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Sean Duxbury <duxbuse@gmail.com>"]
 license = "MIT"
